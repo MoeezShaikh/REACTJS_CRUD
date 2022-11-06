@@ -1,0 +1,190 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+
+}
+body{
+  background-color:rgb(49, 47, 47);
+}
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position:relative;
+
+}
+
+.create-form{
+  width:30%;
+  height: 100vh;
+  padding: 100px 50px;
+  background-color: #424242;
+  position: fixed;
+  align-self: flex-start;
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color:white
+}
+
+.section-title{
+  font-weight: 200;
+
+}
+
+input{
+  width: 100%;
+  height: 45px;
+  text-indent: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-color: transparent;
+  color:white
+
+}
+
+
+::placeholder{
+  color: rgb(194, 194, 194);
+
+}
+
+.form-btn{
+  align-self: flex-start;
+  padding: 15px 40px;
+  background-color: #16709b;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.header{
+  width: 90%;
+  height:60px ;
+  margin-top:30px ;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.page-title{
+  font-weight: 200;
+  color: white;
+  font-size:35px ;
+}
+.btn{
+  /* width: 10%; */
+  padding: 0px 15px;
+  background-color: #16709b;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+.display{
+  width: 90%;
+  padding: 20px;
+  /* background-color: gray; */
+  display: flex;
+  column-gap: calc(12%/3);
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.superhero{
+    width:23%;
+    
+    background-color: #272727;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.super-img{
+  width: 100%;
+  height: 300px;
+  overflow:hidden;
+}
+
+.img{
+  width:100%;
+
+}
+
+.super-details{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.powerstats{
+  width: 100%;
+  /* background-color: darkgray; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.full{
+  background-color:white;
+  width: 100%;
+  height: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+
+}
+
+.strength{
+  background-color: #ff4545;
+  height: 12px;
+  border-radius: 5px;
+
+}
+
+.intelligence{
+  background-color: skyblue;
+  height: 12px;
+  border-radius: 5px;
+
+}
+
+.actions{
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+
+}
+
+.actions > i {
+   font: size 20px;
+}
+
+.update{
+  color:#48e948;
+}
+
+.delete{
+  color:red;
+}
+
+.name{
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.planet{
+  font-weight: 300;
+  
+}
